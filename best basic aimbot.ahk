@@ -20,7 +20,7 @@ DllCall("QueryPerformanceFrequency", "Int64*", freq)
 FlickBefore := 0
 
 
-aim_key := "RButton" ;List of Keys: https://www.autohotkey.com/docs/KeyList.htm
+aim_key := "q" ;List of Keys: https://www.autohotkey.com/docs/KeyList.htm
 
 game_sens := 1.5 ;Game sens
 game_fov  := 110 ;Game fov    ;Apex Legends use this -> game_fov := RealFov(110, A_ScreenWidth, A_ScreenHeight)
